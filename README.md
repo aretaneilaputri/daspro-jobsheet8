@@ -18,3 +18,12 @@ Jawab: jadi perbedaan nya adalah perulangan luar berfungsi untuk mengatur baris,
 Jawab: perintah System.out.println(); berfungsi untuk memindahkan kursor ke baris berikutnya setelah selesai mencetak satu baris bintang.kalau baris ini dihapus, maka seluruh bintang dari semua baris akan dicetak di satu baris panjang tanpa pindah ke bawah.Hasilnya akan berantakan dan tidak membentuk persegi, hanya satu deretan bintang panjang saja.jadi, perintah ini penting agar setiap baris bintang tampil rapi di barisnya masing-masing.
 5.Silahkan commit dan push ke repository Anda.
 
+Pertanyaan Percobaan 3
+1. Perhatikan,apakah output yang dihasilkan dengan nilai N=5 sesuai dengan tampilan berikut?
+*
+**
+***
+****
+*****
+Jawab: ketika program dijalankan dengan memasukkan nilai N = 5, hasil output yang muncul belum sesuai dengan tampilan yang diharapkan pada jobsheet.karena program belum menambahkan perintah untuk mencetak baris baru setiap kali satu baris bintang selesai dibuat.
+
