@@ -7,6 +7,8 @@ Jawab: kalau kondisi diubah jadi i > N, maka program tidak akan mencetak apa pun
 Jawab: Kalau bagian i++ diubah jadi i--, maka nilai i akan terus berkurang setiap perulangan, bukan bertambah. Karena kondisi loop adalah i <= N, maka program tidak akan pernah berhenti (infinite loop).Hal ini disebabkan karena nilai i justru menjauh dari batas N setiap kali diulang. Jadi, selama kondisi selalu benar, program akan terus mencetak bintang tanpa henti.
 
 Pertanyaan Percobaan 2
-1.Perhatikkan perulangan luar.Jika pada sintaks for, inisialisasi iOuter=1 diubah menjadi iOuter=0 apa yang akibatnya?Mengapa bisa demikian?
+1. Perhatikkan perulangan luar.Jika pada sintaks for, inisialisasi iOuter=1 diubah menjadi iOuter=0 apa yang akibatnya?Mengapa bisa demikian?
 Jawab: kalau inisialisasi iOuter diubah dari 1 menjadi 0, maka hasilnya akan menambah satu baris bintang lagi di awal. Misalnya, kalau N = 5, seharusnya muncul 5 baris, tapi dengan iOuter=0 maka akan muncul 6 baris.
 Hal ini karena perulangan dimulai dari angka 0 dan berhenti saat iOuter melebihi N. Jadi totalnya bukan 5 kali, tapi 6 kali. Perubahan nilai awal ini langsung berpengaruh ke jumlah baris yang dicetak.
+2. Kembalikan program semula dimana inisialisasi iOuter=1. Kemudian perhatikan perulangan dalam,Jika pada sintaks for, inisialisasi i=1 diubah menjadi i=0, apa yang akibatnya?Mengapa bisa demikian?
+Jawab: efeknya mirip seperti sebelumnya, tapi kali ini yang bertambah bukan barisnya, melainkan kolomnya. Setiap baris akan berisi satu bintang lebih banyak.Misalnya N=4, maka hasilnya jadi 5 bintang per baris. Karena loop dalam (inner loop) mencetak dari 0 sampai 4, jadi jumlahnya jadi N+1.Kesimpulannya, setiap perulangan yang dimulai dari 0 akan menambah satu kali 
