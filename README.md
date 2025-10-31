@@ -26,4 +26,6 @@ Pertanyaan Percobaan 3
 ****
 *****
 Jawab: ketika program dijalankan dengan memasukkan nilai N = 5, hasil output yang muncul belum sesuai dengan tampilan yang diharapkan pada jobsheet.karena program belum menambahkan perintah untuk mencetak baris baru setiap kali satu baris bintang selesai dibuat.
-
+2. Jika tidak sesuai, bagian mana saja yang harus diperbaiki/ditambahkan? Jelaskan setiap bagian yang perlu diperbaiki/ditambahkan.
+Jawab: bagian yang perlu diperbaiki adalah setelah perulangan dalam, karena program belum memiliki perintah untuk pindah ke baris baru. akibatnya, semua bintang tercetak dalam satu baris panjang dan tidak membentuk segitiga. maka solusinya adalah menambahkan System.out.println(); setelah inner loop agar program mencetak baris baru setiap kali selesai satu tingkat segitiga. selain itu, nilai awal variabel i sebaiknya dimulai dari 1, bukan 0, supaya baris pertama langsung menampilkan satu bintang. Setelah dua hal ini diperbaiki, program berhasil menampilkan pola segitiga bintang dengan benar sesuai nilai yang dimasukkan.
+3. Silahkan commit dan push ke repository Anda.
