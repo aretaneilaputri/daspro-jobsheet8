@@ -1,1 +1,3 @@
-# daspro-jobsheet8
+Pertanyaan percobaan 1
+1. Jika pada perulangan for, inisialisasi i=1 diubah menjadi i=0, apa yang akibatnya? Mengapa bisa demikian?
+Jawab: kalau kita ubah nilai awal i dari 1 menjadi 0, maka jumlah bintang yang muncul akan bertambah satu. Misalnya, kalau N = 5, seharusnya muncul 5 bintang, tapi karena perulangan dimulai dari 0, maka akan muncul 6 bintang . Ini terjadi karena loop sekarang berjalan sebanyak 6 kali 0,1,2,3,4,5.jadi intinya, perulangan di Java menghitung dari nilai awal sampai nilai akhir yang memenuhi syarat kondisi i <= N. Jadi, kalau kita mulai dari 0, maka program menghitung satu kali lebih banyak dari yang kita harapkan.
