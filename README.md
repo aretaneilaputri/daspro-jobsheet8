@@ -5,3 +5,8 @@ Jawab: kalau kita ubah nilai awal i dari 1 menjadi 0, maka jumlah bintang yang m
 Jawab: kalau kondisi diubah jadi i > N, maka program tidak akan mencetak apa pun.karena, ketika program mulai dijalankan, nilai awal i adalah 1, dan kondisi 1 > N pasti salah (false). Karena syarat perulangan tidak terpenuhi sejak awal, maka loop tidak pernah dijalankan.Jadi, logikanya adalah — perulangan hanya akan berjalan kalau kondisi yang diberikan bernilai benar (true).
 3. Jika pada perulangan for, kondisi step i++ diubah menjadi i-- apa akibatnya?Mengapa demikian?
 Jawab: Kalau bagian i++ diubah jadi i--, maka nilai i akan terus berkurang setiap perulangan, bukan bertambah. Karena kondisi loop adalah i <= N, maka program tidak akan pernah berhenti (infinite loop).Hal ini disebabkan karena nilai i justru menjauh dari batas N setiap kali diulang. Jadi, selama kondisi selalu benar, program akan terus mencetak bintang tanpa henti.
+
+Pertanyaan Percobaan 2
+1.Perhatikkan perulangan luar.Jika pada sintaks for, inisialisasi iOuter=1 diubah menjadi iOuter=0 apa yang akibatnya?Mengapa bisa demikian?
+Jawab: kalau inisialisasi iOuter diubah dari 1 menjadi 0, maka hasilnya akan menambah satu baris bintang lagi di awal. Misalnya, kalau N = 5, seharusnya muncul 5 baris, tapi dengan iOuter=0 maka akan muncul 6 baris.
+Hal ini karena perulangan dimulai dari angka 0 dan berhenti saat iOuter melebihi N. Jadi totalnya bukan 5 kali, tapi 6 kali. Perubahan nilai awal ini langsung berpengaruh ke jumlah baris yang dicetak.
