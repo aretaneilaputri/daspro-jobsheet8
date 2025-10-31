@@ -14,3 +14,7 @@ Hal ini karena perulangan dimulai dari angka 0 dan berhenti saat iOuter melebihi
 Jawab: efeknya mirip seperti sebelumnya, tapi kali ini yang bertambah bukan barisnya, melainkan kolomnya. Setiap baris akan berisi satu bintang lebih banyak.Misalnya N=4, maka hasilnya jadi 5 bintang per baris. Karena loop dalam (inner loop) mencetak dari 0 sampai 4, jadi jumlahnya jadi N+1.Kesimpulannya, setiap perulangan yang dimulai dari 0 akan menambah satu kali 
 3. Jadi,apakah perbedaan kegunaan antara perulangan luar dengan perulangan yang berada didalamnya?
 Jawab: jadi perbedaan nya adalah perulangan luar berfungsi untuk mengatur baris, sedangkan perulangan dalam berfungsi untuk mengatur kolom atau isi dari baris tersebut.
+4. Mengapa perlu ditambahkan sintaks System.out.println(); di Bawah perulangan dalam?Apa akibatnya jika sintaks tersebuut dihilangkan?
+Jawab: perintah System.out.println(); berfungsi untuk memindahkan kursor ke baris berikutnya setelah selesai mencetak satu baris bintang.kalau baris ini dihapus, maka seluruh bintang dari semua baris akan dicetak di satu baris panjang tanpa pindah ke bawah.Hasilnya akan berantakan dan tidak membentuk persegi, hanya satu deretan bintang panjang saja.jadi, perintah ini penting agar setiap baris bintang tampil rapi di barisnya masing-masing.
+5.Silahkan commit dan push ke repository Anda.
+
